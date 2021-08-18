@@ -3,18 +3,18 @@ import Square from './Square'
 
 const Board = () => {
   return (
-    <div>
-      <div> 
+    <div className="board">
+      <divc className="boardRow"> 
         <Square value={0}/>
         <Square value={1}/>
         <Square value={2}/>
-      </div>
-      <div> 
+      </divc>
+      <div className="boardRow"> 
         <Square value={3}/>
         <Square value={4}/>
         <Square value={5}/>
       </div>
-      <div> 
+      <div className="boardRow"> 
         <Square value={6}/>
         <Square value={7}/>
         <Square value={8}/>
