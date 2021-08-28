@@ -1,6 +1,6 @@
 import React from "react";
 import Board from './comoponents/Board';
-import './styles/root.scss'
+import './styles/style.scss'
 
 const app=()=>{
   return  (
