@@ -3,6 +3,7 @@ import Board from './comoponents/Board';
 import './styles/style.scss'
 
 const app=()=>{
+  
   return  (
     <div className="app">
       <h1>TIC TAC TOE</h1>
